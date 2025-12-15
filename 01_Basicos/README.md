@@ -4,16 +4,15 @@ Este directorio contiene ejercicios y ejemplos sobre los fundamentos básicos de
 
 ## Temas cubiertos:
 
-- **Variables y tipos de datos**: int, float, char, double
-- **Operadores**: aritméticos, lógicos, relacionales
-- **Entrada/salida**: printf(), scanf()
-- **Estructuras de control**:
-  - Condicionales: if, else, switch
-  - Ciclos: for, while, do-while
-- **Funciones básicas**
+- [x] **Variables y tipos de datos**: int, float, char, double
+- [ ] **Operadores**: aritméticos, lógicos, relacionales
+- [ ] **Entrada/salida**: printf(), scanf()
+- [ ] **Estructuras de control**:
+  - [ ] Condicionales: if, else, switch
+  - [ ] Ciclos: for, while, do-while
+- [ ] **Funciones básicas**
 
 ## Estructura sugerida:
-
 ```
 01_Basicos/
 ├── variables.c         # Declaración y uso de variables

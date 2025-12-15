@@ -19,40 +19,40 @@ Repositorio de aprendizaje continuo en C. Estructuras de control básicas hasta 
 ## 🎯 Objetivos de Aprendizaje
 
 ### 1. Fundamentos Básicos (01_Basicos)
-- Dominar variables y tipos de datos
-- Comprender operadores y expresiones
-- Implementar estructuras de control (if, switch, for, while)
-- Crear y usar funciones
+- [x] Dominar variables y tipos de datos
+- [ ] Comprender operadores y expresiones
+- [ ] Implementar estructuras de control (if, switch, for, while)
+- [ ] Crear y usar funciones
 
 ### 2. Punteros y Memoria (02_Punteros_Memoria)
-- Entender el concepto de punteros
-- Realizar aritmética de punteros
-- Gestionar memoria dinámica (malloc, calloc, realloc, free)
-- Evitar fugas de memoria y punteros colgantes
+- [ ] Entender el concepto de punteros
+- [ ] Realizar aritmética de punteros
+- [ ] Gestionar memoria dinámica (malloc, calloc, realloc, free)
+- [ ] Evitar fugas de memoria y punteros colgantes
 
 ### 3. Estructuras de Datos (03_Estructuras_Datos)
-- Implementar listas enlazadas (simples, dobles, circulares)
-- Crear pilas y colas
-- Construir árboles binarios y árboles de búsqueda
-- Trabajar con grafos y tablas hash
+- [ ] Implementar listas enlazadas (simples, dobles, circulares)
+- [ ] Crear pilas y colas
+- [ ] Construir árboles binarios y árboles de búsqueda
+- [ ] Trabajar con grafos y tablas hash
 
 ### 4. Algoritmos (04_Algoritmos)
-- Implementar algoritmos de ordenamiento (bubble, quick, merge, etc.)
-- Desarrollar algoritmos de búsqueda (lineal, binaria, DFS, BFS)
-- Aplicar técnicas de programación dinámica
-- Usar algoritmos voraces y divide y conquista
+- [ ] Implementar algoritmos de ordenamiento (bubble, quick, merge, etc.)
+- [ ] Desarrollar algoritmos de búsqueda (lineal, binaria, DFS, BFS)
+- [ ] Aplicar técnicas de programación dinámica
+- [ ] Usar algoritmos voraces y divide y conquista
 
 ### 5. Proyectos Prácticos (05_Proyectos)
-- Desarrollar juegos de consola
-- Crear herramientas de línea de comandos
-- Implementar utilidades prácticas
-- Integrar conocimientos en proyectos completos
+- [ ] Desarrollar juegos de consola
+- [ ] Crear herramientas de línea de comandos
+- [ ] Implementar utilidades prácticas
+- [ ] Integrar conocimientos en proyectos completos
 
 ### 6. Librerías Reutilizables (lib)
-- Crear módulos independientes
-- Desarrollar código reutilizable
-- Practicar buenas prácticas de programación
-- Construir una base de código personal
+- [ ] Crear módulos independientes
+- [ ] Desarrollar código reutilizable
+- [ ] Practicar buenas prácticas de programación
+- [ ] Construir una base de código personal
 
 ## 🚀 Cómo Empezar
 
@@ -92,7 +92,7 @@ Repositorio de aprendizaje continuo en C. Estructuras de control básicas hasta 
 - Cada directorio contiene su propio README con información específica
 - Los ejemplos incluyen comentarios explicativos
 - Se recomienda seguir el orden numérico para un aprendizaje progresivo
-- Todos los programas son compatibles con el estándar C99 o superior
+
 
 ## 🤝 Contribuciones
 

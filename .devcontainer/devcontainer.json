@@ -1,0 +1,29 @@
+{
+	"name": "C Mastery Environment",
+	"image": "mcr.microsoft.com/devcontainers/cpp:default",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// ESENCIALES PARA C
+				"ms-vscode.cpptools-extension-pack",  // Intellisense, Debugging
+				"vadimcn.vscode-lldb",                // Debugger alternativo muy bueno
+				"formulahendry.code-runner",          // Ejecutar código con un clic (Play button)
+				
+				// ESENCIALES PARA MARKDOWN (Tu documentación)
+				"yzhang.markdown-all-in-one",         // Atajos, índices automáticos
+				"shd101wyy.markdown-preview-enhanced", // Previsualización potente con diagramas
+				"davidanson.vscode-markdownlint"      // Te avisa si tu Markdown está mal escrito
+			],
+			"settings": {
+				// Configuración para que Code Runner use GCC y detecte errores
+				"code-runner.executorMap": {
+					"c": "cd $dir && gcc -Wall -Wextra -std=c11 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+				},
+				"code-runner.runInTerminal": true, // Importante para poder usar scanf (inputs)
+				"code-runner.saveFileBeforeRun": true
+			}
+		}
+	},
+	// Instalar herramientas adicionales de Linux automáticamente
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y valgrind make manpages-dev"
+}
